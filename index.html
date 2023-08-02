@@ -3,8 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <title>Rock, Paper, Scissors</title>
-        <script src="myScripts.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <script src="myScripts.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div class="background">
+        </div>
+        <header>
+            <h1>ROCK, PAPER, SCISSORS</h1>
+            <button class="reset-button">Start Over</button>
+        </header>
+        <div class="content">
+            <div class="score-display">
+                <h2>Start the Game</h2>
+                <h2>0 - 0</h2>
+            </div>
+            <div class="selection-container">
+                <button class="user-selection-button"  id="rock-button">
+                    <div class="overlay"></div>
+
+                </button>
+                <button class="user-selection-button" id="paper-button">
+                    <div class="overlay"></div>
+                </button>
+                <button class="user-selection-button" id="scissors-button">
+                    <div class="overlay"></div>
+                </button>
+            </div>
+            <h3>Pick your selection.</h3>
+        </div>
     </body>
 </html>
