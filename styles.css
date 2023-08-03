@@ -75,10 +75,15 @@ button {
     background-size: cover;
     mix-blend-mode: overlay;
     position: fixed;
-width: 120vw;
-height: 120vh;
-z-index: -999;
-top: -40px;
-left: -40px;
-filter: blur(20px);
+    width: 120vw;
+    height: 120vh;
+    z-index: -999;
+    top: -40px;
+    left: -40px;
+    filter: blur(20px);
+}
+
+.overlay:hover {
+    background: rgba(0, 0, 0, 0.60);
+
 }

@@ -18,22 +18,22 @@
         </header>
         <div class="content">
             <div class="score-display">
-                <h2>Start the Game</h2>
-                <h2>0 - 0</h2>
+                <h2 id="status-message">Start the Game</h2>
+                <h2 id="score-text">0 - 0</h2>
             </div>
             <div class="selection-container">
-                <button class="user-selection-button"  id="rock-button">
+                <button data-user-selection="rock"  class="user-selection-button"  id="rock-button">
                     <div class="overlay"></div>
 
                 </button>
-                <button class="user-selection-button" id="paper-button">
+                <button data-user-selection="paper" class="user-selection-button" id="paper-button">
                     <div class="overlay"></div>
                 </button>
-                <button class="user-selection-button" id="scissors-button">
+                <button data-user-selection="scissors" class="user-selection-button" id="scissors-button">
                     <div class="overlay"></div>
                 </button>
             </div>
-            <h3>Pick your selection.</h3>
+            <h3>Click on your choice</h3>
         </div>
     </body>
 </html>
